@@ -188,8 +188,10 @@ def main():
             find_unused_parameters=find_unused_parameters)
 
     model.eval()
-
+    count = 0
     for eval_cfg in cfg.evaluation:
+        print(f"count: {count}")
+        count += 1
         if args.data is not None:
             if eval_cfg.data not in args.data:
                 continue
@@ -210,7 +212,7 @@ def main():
 
         # build the dataloader
         dataset = build_dataset(cfg.data[eval_cfg.data])
-
+        import pdb; pdb.set_trace()
         # The default loader config
         loader_cfg = dict(
             samples_per_gpu=cfg.data.samples_per_gpu,
@@ -232,7 +234,7 @@ def main():
         test_loader_cfg = {**loader_cfg, **cfg.data.get('test_dataloader', {})}
 
         data_loader = build_dataloader(dataset, **test_loader_cfg)
-
+        # import pdb; pdb.set_trace()
         log_vars = evaluate_3d(
             model, data_loader, metrics=metrics,
             feed_batch_size=eval_cfg.get('feed_batch_size', 32),

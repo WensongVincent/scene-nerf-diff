@@ -23,8 +23,12 @@ def evaluate_3d(model, dataloader, metrics=None,
 
     log_vars = dict()
     batch_size_list = []
+    print('\napi test location 1')
+    print(f'batchsize: {batch_size}')
+    print(f'feedbatchsize: {feed_batch_size}')
     # sampling fake images and directly send them to metrics
     for i, data in enumerate(dataloader):
+        print('\napi test location 2')
         sample_kwargs_ = deepcopy(sample_kwargs)
         if viz_dir is not None and i % viz_step == 0:
             sample_kwargs_.update(viz_dir=viz_dir)
@@ -37,7 +41,7 @@ def evaluate_3d(model, dataloader, metrics=None,
             else:
                 log_vars[k] = [outputs_dict['log_vars'][k]]
         batch_size_list.append(outputs_dict['num_samples'])
-
+        print('\napi test location 3')
         if metrics is not None and len(metrics) > 0:
             pred_imgs = outputs_dict['pred_imgs'].reshape(
                 -1, *outputs_dict['pred_imgs'].shape[2:]).split(feed_batch_size, dim=0)

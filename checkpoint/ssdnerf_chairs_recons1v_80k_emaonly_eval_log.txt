@@ -103,3 +103,254 @@
 2024-03-14 01:14:13,394 - mmgen - INFO - evaluation
 2024-03-14 01:14:13,394 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
 2024-03-14 01:14:14,237 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:23:41,111 - mmgen - INFO - evaluation
+2024-04-16 22:23:41,133 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:23:41,940 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:23:46,404 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:23:46,491 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:23:46,530 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:23:46,565 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:23:46,568 - mmgen - INFO - Sample 1 fake scenes for evaluation
+2024-04-16 22:28:16,809 - mmgen - INFO - evaluation
+2024-04-16 22:28:16,809 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:28:17,611 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:28:19,265 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:28:19,346 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:28:19,381 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:28:19,416 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:28:39,144 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 22:31:16,613 - mmgen - INFO - evaluation
+2024-04-16 22:31:16,613 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:31:17,447 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:31:19,146 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:31:19,227 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:31:19,264 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:31:19,300 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:31:38,767 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 22:35:04,124 - mmgen - INFO - evaluation
+2024-04-16 22:35:04,124 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:35:05,001 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:35:06,608 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:35:06,689 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:35:06,725 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:35:06,759 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:35:26,292 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 22:36:43,619 - mmgen - INFO - evaluation
+2024-04-16 22:36:43,619 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:36:44,407 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:36:46,023 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:36:46,104 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:36:46,141 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:36:46,176 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:37:05,390 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 22:39:19,005 - mmgen - INFO - evaluation
+2024-04-16 22:39:19,005 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:39:19,831 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:39:21,466 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:39:21,546 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:39:21,583 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:39:21,618 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:39:40,779 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 22:45:58,613 - mmgen - INFO - evaluation
+2024-04-16 22:45:58,613 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:45:59,439 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:46:01,100 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:46:01,181 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:46:01,217 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:46:01,252 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:46:01,255 - mmgen - INFO - Sample 1 fake scenes for evaluation
+2024-04-16 22:57:02,620 - mmgen - INFO - evaluation
+2024-04-16 22:57:02,620 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 22:57:03,429 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 22:57:05,118 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 22:57:05,198 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 22:57:05,235 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 22:57:05,270 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 22:57:05,272 - mmgen - INFO - Sample 1 fake scenes for evaluation
+2024-04-16 23:03:24,080 - mmgen - INFO - evaluation
+2024-04-16 23:03:24,080 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:03:24,870 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:03:26,490 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:03:26,570 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:03:26,611 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:03:26,645 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:05:47,753 - mmgen - INFO - evaluation
+2024-04-16 23:05:47,753 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:05:48,548 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:05:50,175 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:05:50,256 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:05:50,296 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:05:50,329 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:08:26,510 - mmgen - INFO - evaluation
+2024-04-16 23:08:26,510 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:08:27,337 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:08:28,996 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:08:29,076 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:08:29,113 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:08:29,147 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:09:05,616 - mmgen - INFO - evaluation
+2024-04-16 23:09:05,616 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:09:06,434 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:09:08,055 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:09:08,140 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:09:08,181 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:09:08,216 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:09:09,043 - mmgen - INFO - Sample 1 fake scenes for evaluation
+2024-04-16 23:23:56,210 - mmgen - INFO - evaluation
+2024-04-16 23:23:56,210 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:23:57,030 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:23:58,655 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:23:58,735 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:23:58,771 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:23:58,806 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:24:39,931 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-16 23:25:07,330 - mmgen - INFO - evaluation
+2024-04-16 23:25:07,330 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:25:08,138 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:25:09,759 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:25:09,841 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:25:09,879 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:25:09,913 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:25:16,235 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-16 23:29:37,359 - mmgen - INFO - evaluation
+2024-04-16 23:29:37,360 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:29:38,166 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:29:39,822 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:29:39,902 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:29:39,942 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:29:39,976 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:29:39,982 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-16 23:30:32,914 - mmgen - INFO - evaluation
+2024-04-16 23:30:32,914 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:30:33,717 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:30:35,359 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:30:35,439 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:30:35,480 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:30:35,514 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:30:35,520 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-16 23:34:03,528 - mmgen - INFO - evaluation
+2024-04-16 23:34:03,529 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:34:04,321 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:34:05,944 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:34:06,026 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:34:06,066 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:34:06,100 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:34:25,465 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 23:40:50,146 - mmgen - INFO - evaluation
+2024-04-16 23:40:50,147 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:40:50,954 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:40:52,592 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:40:52,673 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:40:52,721 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:40:52,755 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:41:12,075 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 23:45:18,392 - mmgen - INFO - evaluation
+2024-04-16 23:45:18,392 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:45:19,224 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:45:20,848 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:45:20,929 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:45:20,966 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:45:21,000 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:45:40,257 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-16 23:51:45,072 - mmgen - INFO - evaluation
+2024-04-16 23:51:45,072 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-16 23:51:45,868 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-16 23:51:47,477 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-16 23:51:47,556 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-16 23:51:47,595 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-16 23:51:47,628 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-16 23:52:06,863 - mmgen - INFO - Sample 1317 fake scenes for evaluation
+2024-04-17 00:51:23,300 - mmgen - INFO - evaluation
+2024-04-17 00:51:23,300 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:51:24,089 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:51:25,705 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:51:25,785 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:51:25,825 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:51:25,858 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:51:25,864 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-17 00:51:59,853 - mmgen - INFO - evaluation
+2024-04-17 00:51:59,853 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:52:00,675 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:52:02,273 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:52:02,354 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:52:02,394 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:52:02,427 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:52:02,433 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-17 00:52:15,706 - mmgen - INFO - evaluation
+2024-04-17 00:52:15,706 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:52:16,532 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:52:18,146 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:52:18,226 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:52:18,266 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:52:18,298 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:52:18,304 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-17 00:52:55,243 - mmgen - INFO - evaluation
+2024-04-17 00:52:55,243 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:52:56,056 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:52:57,680 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:52:57,764 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:52:57,800 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:52:57,834 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:53:58,009 - mmgen - INFO - evaluation
+2024-04-17 00:53:58,009 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:53:58,806 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:54:00,431 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:54:00,513 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:54:00,552 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:54:00,586 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:54:09,306 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-17 00:55:19,239 - mmgen - INFO - evaluation
+2024-04-17 00:55:19,239 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:55:20,036 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:55:21,654 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:55:21,737 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:55:21,777 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:55:21,810 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:55:30,521 - mmgen - INFO - Sample 4 fake scenes for evaluation
+2024-04-17 00:56:52,251 - mmgen - INFO - evaluation
+2024-04-17 00:56:52,251 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 00:56:53,055 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 00:56:54,682 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 00:56:54,762 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 00:56:54,802 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 00:56:54,834 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 00:57:00,258 - mmgen - INFO - Sample 2 fake scenes for evaluation
+2024-04-17 01:01:36,504 - mmgen - INFO - evaluation
+2024-04-17 01:01:36,504 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 01:01:37,293 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 01:01:38,918 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 01:01:38,998 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 01:01:39,038 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 01:01:39,072 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 01:01:41,866 - mmgen - INFO - Sample 2 fake scenes for evaluation
+2024-04-17 01:05:15,012 - mmgen - INFO - evaluation
+2024-04-17 01:05:15,012 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 01:05:15,835 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 01:05:17,457 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 01:05:17,538 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 01:05:17,578 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 01:05:17,613 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 01:07:25,991 - mmgen - INFO - evaluation
+2024-04-17 01:07:25,992 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 01:07:26,820 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 01:07:28,429 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 01:07:28,509 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 01:07:28,546 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 01:07:28,580 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 01:07:35,361 - mmgen - INFO - Sample 2 fake scenes for evaluation
+2024-04-17 01:14:54,866 - mmgen - INFO - evaluation
+2024-04-17 01:14:54,867 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 01:14:55,679 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 01:14:57,302 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 01:14:57,383 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 01:14:57,423 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 01:14:57,457 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 01:15:06,738 - mmgen - INFO - Sample 21 fake scenes for evaluation
+2024-04-17 01:38:40,191 - mmgen - INFO - evaluation
+2024-04-17 01:38:40,192 - mmgen - INFO - Set random seed to 2021, deterministic: False, use_rank_shift: False
+2024-04-17 01:38:40,997 - mmgen - INFO - Apply 'timestep_weight' rescale_mode for loss_ddpm_mse. Please make sure the passed weight can be updated by external functions.
+2024-04-17 01:38:42,623 - mmgen - INFO - Try to load Tero's Inception Model from 'work_dirs/cache/inception-2015-12-05.pt'.
+2024-04-17 01:38:42,704 - mmgen - INFO - Load Tero's Inception Model successfully.
+2024-04-17 01:38:42,744 - mmgen - INFO - FID: Adopt Inception in StyleGAN style
+2024-04-17 01:38:42,817 - mmgen - INFO - Load reference inception pkl from work_dirs/cache/chairs_test_inception_stylegan.pkl
+2024-04-17 01:38:45,707 - mmgen - INFO - Sample 21 fake scenes for evaluation

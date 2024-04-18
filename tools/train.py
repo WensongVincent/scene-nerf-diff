@@ -127,6 +127,7 @@ def main():
     args = parse_args()
 
     cfg = Config.fromfile(args.config)
+    # import pdb; pdb.set_trace()
     if args.cfg_options is not None:
         cfg.merge_from_dict(args.cfg_options)
 
@@ -213,10 +214,9 @@ def main():
     cfg.seed = args.seed
     meta['seed'] = args.seed
     meta['exp_name'] = osp.basename(args.config)
-
     model = build_model(
         cfg.model, train_cfg=cfg.train_cfg, test_cfg=cfg.test_cfg)
-
+    # import pdb; pdb.set_trace()
     datasets = [build_dataset(cfg.data.train)]
     if len(cfg.workflow) == 2:
         val_dataset = copy.deepcopy(cfg.data.val)

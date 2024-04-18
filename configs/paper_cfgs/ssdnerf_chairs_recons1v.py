@@ -106,7 +106,7 @@ optimizer = dict(
     decoder=dict(type='Adam', lr=1e-3, weight_decay=0.))
 dataset_type = 'ShapeNetSRN'
 data = dict(
-    samples_per_gpu=8,
+    samples_per_gpu=2,
     workers_per_gpu=4,
     train=dict(
         type=dataset_type,
@@ -137,7 +137,7 @@ evaluation = [
         type='GenerativeEvalHook3D',
         data='val_cond',
         interval=eval_interval,
-        feed_batch_size=32,
+        feed_batch_size=2,
         viz_step=32,
         metrics=dict(
             type='FID',
