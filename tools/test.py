@@ -212,7 +212,10 @@ def main():
 
         # build the dataloader
         dataset = build_dataset(cfg.data[eval_cfg.data])
-        import pdb; pdb.set_trace()
+
+        # import pdb; pdb.set_trace()
+        print(f">>> Num of scenes: {len(dataset)}")
+
         # The default loader config
         loader_cfg = dict(
             samples_per_gpu=cfg.data.samples_per_gpu,
@@ -241,7 +244,7 @@ def main():
             viz_dir=eval_cfg.get('viz_dir', None),
             viz_step=eval_cfg.get('viz_step', 1),
             sample_kwargs=eval_cfg.get('sample_kwargs', dict()))
-
+        import pdb; pdb.set_trace()
         if rank == 0:
             sys.stdout.write('\n')
             for metric in metrics:

@@ -24,8 +24,8 @@ def evaluate_3d(model, dataloader, metrics=None,
     log_vars = dict()
     batch_size_list = []
     print('\napi test location 1')
-    print(f'batchsize: {batch_size}')
-    print(f'feedbatchsize: {feed_batch_size}')
+    print(f'>>> batchsize: {batch_size}')
+    print(f'>>> feedbatchsize: {feed_batch_size}')
     # sampling fake images and directly send them to metrics
     for i, data in enumerate(dataloader):
         print('\napi test location 2')

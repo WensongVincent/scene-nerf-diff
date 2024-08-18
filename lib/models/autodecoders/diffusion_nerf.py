@@ -64,6 +64,29 @@ class DiffusionNeRF(MultiSceneNeRF):
         return code
 
     def train_step(self, data, optimizer, running_status=None):
+        # data: is the batch data returned by dataloader, and each of data is organized as:
+                # Basic Scene Information:
+                # - `scene_id`: (Tensor) The ID of the scene.
+                # - `scene_name`: (String or Tensor) The name of the scene.
+
+                # Conditional Data (if `code_only=False` and `load_cond_data=True`):
+                # - `cond_poses`: (Tensor) Camera poses for the conditional images.
+                # - `cond_intrinsics`: (Tensor) Camera intrinsics for the conditional images.
+                # - `cond_img_paths`: (List) File paths to the conditional images.
+                # - `cond_imgs`: (Tensor) Conditional images (if `load_imgs=True`).
+
+                # Test Data (if `code_only=False` and `load_test_data=True`):
+                # - `test_poses`: (Tensor) Camera poses for the test images.
+                # - `test_intrinsics`: (Tensor) Camera intrinsics for the test images.
+                # - `test_img_paths`: (List) File paths to the test images.
+                # - `test_imgs`: (Tensor) Test images (if `load_imgs=True`).
+
+                # Precomputed Codes (if `code_dir` is set and the file exists):
+                # - `code`: (Tensor) Precomputed code loaded from a `.pth` file.
+
+                # Test Pose Overrides (if `test_pose_override` is set):
+                # - `test_poses`: (Tensor) Overridden test poses.
+                # - `test_intrinsics`: (Tensor) Overridden test intrinsics.
         diffusion = self.diffusion
         decoder = self.decoder_ema if self.freeze_decoder and self.decoder_use_ema else self.decoder
 

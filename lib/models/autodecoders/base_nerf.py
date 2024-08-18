@@ -504,6 +504,9 @@ class BaseNeRF(nn.Module):
         rays_o = rays_o.reshape(num_scenes, num_imgs * h * w, 3)
         rays_d = rays_d.reshape(num_scenes, num_imgs * h * w, 3)
         max_render_rays = cfg.get('max_render_rays', -1)
+
+        # import pdb; pdb.set_trace()
+
         if 0 < max_render_rays < rays_o.size(1):
             rays_o = rays_o.split(max_render_rays, dim=1)
             rays_d = rays_d.split(max_render_rays, dim=1)
